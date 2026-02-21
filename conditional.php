@@ -35,4 +35,5 @@ break;
 deafult;
 echo"temprature outside tha range this statement can handle";
 }
+
 ?>
