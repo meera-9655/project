@@ -11,8 +11,6 @@ $d2=$_POST['t2'];
 
 $arr=explode("/",$d1);
 $brr=explode("/",$d2);
-
-// Borrow days
 if($arr[0] < $brr[0])
 {
 $arr[0] += 30;   // corrected
@@ -20,15 +18,12 @@ $arr[1] -= 1;    // corrected
 }
 $day = $arr[0] - $brr[0];
 
-// Borrow months
 if($arr[1] < $brr[1])
 {
 $arr[1] += 12;   // corrected ($m1 removed)
 $arr[2] -= 1;
 }
 $mon = $arr[1] - $brr[1];
-
-// Correct variable name
 $yr = $arr[2] - $brr[2];
 }
 ?>
@@ -67,4 +62,5 @@ echo '</font>';
 </td>
 </tr>
 </table>
+
 </form>
