@@ -1,6 +1,6 @@
 
 <html>
-<body><bg color="87Ceeb">
+<body bgcolor="pink">
 <center><h2>last visited date on the web page</h2>
 </center>
 <br>
